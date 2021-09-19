@@ -1,0 +1,9 @@
+C:\Users\t_olg\Desktop\Tolga\Ov\eGuichetA\LibraryDTO\bin\Debug\netcoreapp3.1\LibraryDTO.deps.json
+C:\Users\t_olg\Desktop\Tolga\Ov\eGuichetA\LibraryDTO\bin\Debug\netcoreapp3.1\LibraryDTO.dll
+C:\Users\t_olg\Desktop\Tolga\Ov\eGuichetA\LibraryDTO\bin\Debug\netcoreapp3.1\LibraryDTO.pdb
+C:\Users\t_olg\Desktop\Tolga\Ov\eGuichetA\LibraryDTO\obj\Debug\netcoreapp3.1\LibraryDTO.csprojAssemblyReference.cache
+C:\Users\t_olg\Desktop\Tolga\Ov\eGuichetA\LibraryDTO\obj\Debug\netcoreapp3.1\LibraryDTO.AssemblyInfoInputs.cache
+C:\Users\t_olg\Desktop\Tolga\Ov\eGuichetA\LibraryDTO\obj\Debug\netcoreapp3.1\LibraryDTO.AssemblyInfo.cs
+C:\Users\t_olg\Desktop\Tolga\Ov\eGuichetA\LibraryDTO\obj\Debug\netcoreapp3.1\LibraryDTO.csproj.CoreCompileInputs.cache
+C:\Users\t_olg\Desktop\Tolga\Ov\eGuichetA\LibraryDTO\obj\Debug\netcoreapp3.1\LibraryDTO.dll
+C:\Users\t_olg\Desktop\Tolga\Ov\eGuichetA\LibraryDTO\obj\Debug\netcoreapp3.1\LibraryDTO.pdb
