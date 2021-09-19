@@ -1454,11 +1454,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\t_olg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -1478,8 +1478,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\LibraryBLL\\LibraryBLL.csproj": {
-              "projectPath": "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\LibraryBLL\\LibraryBLL.csproj"
+            "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\LibraryBLL\\LibraryBLL.csproj": {
+              "projectPath": "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\LibraryBLL\\LibraryBLL.csproj"
             }
           }
         }

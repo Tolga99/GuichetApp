@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\LibraryDTO\\LibraryDTO.csproj": {}
+    "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\LibraryDTO\\LibraryDTO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\LibraryDTO\\LibraryDTO.csproj": {
+    "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\LibraryDTO\\LibraryDTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\LibraryDTO\\LibraryDTO.csproj",
+        "projectUniqueName": "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\LibraryDTO\\LibraryDTO.csproj",
         "projectName": "LibraryDTO",
-        "projectPath": "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\LibraryDTO\\LibraryDTO.csproj",
+        "projectPath": "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\LibraryDTO\\LibraryDTO.csproj",
         "packagesPath": "C:\\Users\\t_olg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\LibraryDTO\\obj\\",
+        "outputPath": "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\LibraryDTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

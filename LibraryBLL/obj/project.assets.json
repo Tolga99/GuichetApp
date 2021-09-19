@@ -1049,11 +1049,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\LibraryBLL\\LibraryBLL.csproj",
+      "projectUniqueName": "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\LibraryBLL\\LibraryBLL.csproj",
       "projectName": "LibraryBLL",
-      "projectPath": "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\LibraryBLL\\LibraryBLL.csproj",
+      "projectPath": "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\LibraryBLL\\LibraryBLL.csproj",
       "packagesPath": "C:\\Users\\t_olg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\LibraryBLL\\obj\\",
+      "outputPath": "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\LibraryBLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -1073,11 +1073,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\LibraryBD\\LibraryBD.csproj": {
-              "projectPath": "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\LibraryBD\\LibraryBD.csproj"
+            "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\LibraryBD\\LibraryBD.csproj": {
+              "projectPath": "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\LibraryBD\\LibraryBD.csproj"
             },
-            "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\LibraryDTO\\LibraryDTO.csproj": {
-              "projectPath": "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\LibraryDTO\\LibraryDTO.csproj"
+            "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\LibraryDTO\\LibraryDTO.csproj": {
+              "projectPath": "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\LibraryDTO\\LibraryDTO.csproj"
             }
           }
         }

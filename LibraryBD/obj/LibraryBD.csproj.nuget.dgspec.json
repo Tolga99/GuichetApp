@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\LibraryBD\\LibraryBD.csproj": {}
+    "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\LibraryBD\\LibraryBD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\LibraryBD\\LibraryBD.csproj": {
+    "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\LibraryBD\\LibraryBD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\LibraryBD\\LibraryBD.csproj",
+        "projectUniqueName": "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\LibraryBD\\LibraryBD.csproj",
         "projectName": "LibraryBD",
-        "projectPath": "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\LibraryBD\\LibraryBD.csproj",
+        "projectPath": "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\LibraryBD\\LibraryBD.csproj",
         "packagesPath": "C:\\Users\\t_olg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\LibraryBD\\obj\\",
+        "outputPath": "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\LibraryBD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

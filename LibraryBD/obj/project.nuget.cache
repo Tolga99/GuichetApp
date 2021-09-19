@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "baVV6edLs6wlgo3jZFaUafX9CipwrtpKbWC3sm64IvvRqGPAbYorq4El/LWIaSn7m9QfDJLO1NlX8P45t0EQGw==",
+  "dgSpecHash": "TNhR/G81/YtSb3guaUJNvTr9OstGxhX/6XrhmSDOq3wkSrcNTEFVigNvWT/SAgNFKJ8Do91oiw2wUaT66L4YVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\LibraryBD\\LibraryBD.csproj",
+  "projectFilePath": "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\LibraryBD\\LibraryBD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\t_olg\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.10\\microsoft.data.sqlite.core.5.0.10.nupkg.sha512",
     "C:\\Users\\t_olg\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",

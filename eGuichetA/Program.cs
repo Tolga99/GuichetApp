@@ -27,7 +27,6 @@ namespace eGuichetA
             User user = new User(name, surname, mail, Phone);
             guichetContext.Users.Add(user);
 
-
             int nbTick = 1000;
 
             Session session = new Session("Bank", user,nbTick);

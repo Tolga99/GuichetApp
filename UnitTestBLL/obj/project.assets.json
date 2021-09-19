@@ -5684,11 +5684,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\UnitTestBLL\\UnitTestBLL.csproj",
+      "projectUniqueName": "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\UnitTestBLL\\UnitTestBLL.csproj",
       "projectName": "UnitTestBLL",
-      "projectPath": "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\UnitTestBLL\\UnitTestBLL.csproj",
+      "projectPath": "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\UnitTestBLL\\UnitTestBLL.csproj",
       "packagesPath": "C:\\Users\\t_olg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\UnitTestBLL\\obj\\",
+      "outputPath": "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\UnitTestBLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5708,8 +5708,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\LibraryBLL\\LibraryBLL.csproj": {
-              "projectPath": "C:\\Users\\t_olg\\Desktop\\Tolga\\Ov\\eGuichetA\\LibraryBLL\\LibraryBLL.csproj"
+            "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\LibraryBLL\\LibraryBLL.csproj": {
+              "projectPath": "C:\\Users\\t_olg\\Source\\Repos\\Tolga99\\GuichetApp\\LibraryBLL\\LibraryBLL.csproj"
             }
           }
         }
