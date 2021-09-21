@@ -9,7 +9,6 @@ namespace LibraryBD
 {
     public class Session
     {
-        private static int NextId;
         private int id;
         private String name;
         private ICollection<Category> categories;
@@ -19,11 +18,10 @@ namespace LibraryBD
 
         public Session()
         {
-            Id = Interlocked.Increment(ref NextId);
         }
-        public Session(String nom,User user,int max)
+        public Session(int idS, String nom,User user,int max)
         {
-            Id = Interlocked.Increment(ref NextId);
+            Id = idS;
             Admin = user;
             Name = nom;
             Categories = new HashSet<Category>();

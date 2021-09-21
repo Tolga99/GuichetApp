@@ -5,44 +5,24 @@ using System.Threading;
 
 namespace LibraryDTO
 {
-    public class UserDTO
+    public class UserDTO : LightUserDTO
     {
-        private static int NextId;
-        private int id;
-        private String name;
-        private String surname;
-        private String mail;
-        private String phoneNumber;
+        private ICollection<LightSessionDTO> sessionsd;
 
-        public UserDTO()
+
+        public UserDTO() : base()
         {
-            Id = Interlocked.Increment(ref NextId);
-            Name = "/";
-            Surname = "/";
-            Mail = "/";
-            PhoneNumber = "/";
+            Sessionsd = new HashSet<LightSessionDTO>();
         }
-        public UserDTO(String nom, String prenom)
+        public UserDTO(int idU, String pass, String prenom) : base(idU,pass,prenom)
         {
-            Id = Interlocked.Increment(ref NextId);
-            Name = nom;
-            Surname = prenom;
-            Mail = "/";
-            PhoneNumber = "/";
+            Sessionsd = new HashSet<LightSessionDTO>();
         }
-        public UserDTO(String nom, String prenom, String email, String num)
+        public UserDTO(int idU,String pass, String prenom, String email, String num,ICollection<LightSessionDTO> sess) : base(idU,pass,prenom,email,num)
         {
-            Id = Interlocked.Increment(ref NextId);
-            Name = nom;
-            Surname = prenom;
-            Mail = email;
-            PhoneNumber = num;
+            Sessionsd = sess;
         }
 
-        public string Name { get => name; set => name = value; }
-        public string Surname { get => surname; set => surname = value; }
-        public string Mail { get => mail; set => mail = value; }
-        public string PhoneNumber { get => phoneNumber; set => phoneNumber = value; }
-        public int Id { get => id; set => id = value; }
+        public ICollection<LightSessionDTO> Sessionsd { get => sessionsd; set => sessionsd = value; }
     }
 }

@@ -7,26 +7,12 @@ namespace LibraryDTO
 {
     public class TicketDTO
     {
-       // private static int NextId;
         private int num;
         private DateTime date;
         private int id;
         private int flag; //0=ATTENTE       1=UTILISER
 
-     /*   public TicketDTO()
-        {
-            Num = 0;
-            Date = DateTime.Now;
-            Id = Interlocked.Increment(ref NextId);
-            Flag = 0;
-        }
-        public TicketDTO(int n)
-        {
-            Date = DateTime.Now;
-            Id = Interlocked.Increment(ref NextId);
-            Flag = 0;
-            Num = n + Id;
-        }*/
+ 
         public TicketDTO(int idn,int n, int fl,DateTime dt)
         {
             Date = dt;

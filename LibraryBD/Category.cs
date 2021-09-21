@@ -7,14 +7,13 @@ namespace LibraryBD
 {
     public class Category
     {
-        private static int NextId;
         private int id;
         private String name;
         private int offset;
 
-        public Category(String nom,int of)
+        public Category(int idC, String nom,int of)
         {
-            Id = Interlocked.Increment(ref NextId);
+            Id = idC;
             Name = nom;
             Offset = of;
 

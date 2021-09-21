@@ -20,10 +20,23 @@ namespace LibraryBD
         {
             GC = gc;
         }
+        public IQueryable<Session> GetAllFullSessions()
+        {
+            var query = from b in GC.Sessions.Include(a => a.Categories).Include(a => a.Tickets).Include(a => a.Admin)
+                        select b;
+            return query;
+        }
         public IQueryable<Session> GetSessionById(int id)
         {
             var query = from b in GC.Sessions.Include(a => a.Tickets).Include(a => a.Categories)
                         where b.Id == id
+                        select b;
+            return query;
+        }
+        public IQueryable<Session> GetSessionByName(String name)
+        {
+            var query = from b in GC.Sessions.Include(a => a.Tickets).Include(a => a.Categories)
+                        where b.Name == name
                         select b;
             return query;
         }
@@ -41,6 +54,14 @@ namespace LibraryBD
                         select b;
             return query;
         }
+        public IQueryable<Ticket> GetTicket(int num)
+        {
+            var query = from b in GC.Tickets
+                        where b.Num == num
+                        select b;
+            return query;
+        }
+        #region Saves
         public void SaveTicket(Ticket ticket)
         {
             GC.Tickets.Add(ticket);
@@ -48,7 +69,7 @@ namespace LibraryBD
         }
         public void SaveCategories(ICollection<Category> cats)
         {
-            foreach(Category cat in cats)
+            foreach (Category cat in cats)
             {
                 GC.Categories.Add(cat);
             }
@@ -59,17 +80,16 @@ namespace LibraryBD
             GC.Sessions.Add(sess);
             GC.SaveChanges();
         }
-        public IQueryable<Ticket> GetTicket(int num)
+        public void SaveUser(User user)
         {
-            var query = from b in GC.Tickets
-                        where b.Num == num
-                        select b;
-            return query;
+            GC.Users.Add(user);
+            GC.SaveChanges();
         }
         public void SaveState()
         {
             GC.SaveChanges();
         }
+        #endregion
         public int FindTicketLastId() 
         {
             if (GC.Tickets.Count() == 0)
@@ -82,6 +102,57 @@ namespace LibraryBD
                 return max + 1;
             }
         }
+        public int FindUserLastId()
+        {
+            if (GC.Users.Count() == 0)
+            {
+                return 1;
+            }
+            else
+            {
+                int max = GC.Users.Max(i => i.Id);
+                return max + 1;
+            }
+        }
+        public int FindSessionLastId()
+        {
+            if (GC.Sessions.Count() == 0)
+            {
+                return 1;
+            }
+            else
+            {
+                int max = GC.Sessions.Max(i => i.Id);
+                return max + 1;
+            }
+        }
+        public int FindCategoryLastId()
+        {
+            if (GC.Categories.Count() == 0)
+            {
+                return 1;
+            }
+            else
+            {
+                int max = GC.Categories.Max(i => i.Id);
+                return max + 1;
+            }
+        }
+        public IQueryable<User> GetUserById(int id)
+        {
+            var query = from b in GC.Users.Include(a => a.Sessions)
+                        where b.Id == id
+                        select b;
+            return query;
+        }
+        public IQueryable<User> GetUserByName(String name)
+        {
+            var query = from b in GC.Users.Include(a => a.Sessions)
+                        where b.Surname == name
+                        select b;
+            return query;
+        }
+        
         /* public IQueryable<Film> GetFilmWActorsById(int ID) //Retourne un film grace a son id   && InsertComment && GetListActorsByIdFilm
          {
 

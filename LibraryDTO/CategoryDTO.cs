@@ -7,14 +7,13 @@ namespace LibraryDTO
 {
     public class CategoryDTO
     {
-        private static int NextId;
         private int id;
         private String name;
         private int offset;
 
-        public CategoryDTO(String nom, int of)
+        public CategoryDTO(int idC, String nom, int of)
         {
-            Id = Interlocked.Increment(ref NextId);
+            Id = idC;
             Name = nom;
             Offset = of;
 

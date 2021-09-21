@@ -12,3 +12,17 @@ C:\Users\t_olg\Desktop\Tolga\Ov\eGuichetA\LibraryBLL\obj\Debug\netcoreapp3.1\Lib
 C:\Users\t_olg\Desktop\Tolga\Ov\eGuichetA\LibraryBLL\obj\Debug\netcoreapp3.1\LibraryBLL.csproj.CopyComplete
 C:\Users\t_olg\Desktop\Tolga\Ov\eGuichetA\LibraryBLL\obj\Debug\netcoreapp3.1\LibraryBLL.dll
 C:\Users\t_olg\Desktop\Tolga\Ov\eGuichetA\LibraryBLL\obj\Debug\netcoreapp3.1\LibraryBLL.pdb
+C:\Users\t_olg\Source\Repos\Tolga99\GuichetApp\LibraryBLL\bin\Debug\netcoreapp3.1\LibraryBLL.deps.json
+C:\Users\t_olg\Source\Repos\Tolga99\GuichetApp\LibraryBLL\bin\Debug\netcoreapp3.1\LibraryBLL.dll
+C:\Users\t_olg\Source\Repos\Tolga99\GuichetApp\LibraryBLL\bin\Debug\netcoreapp3.1\LibraryBLL.pdb
+C:\Users\t_olg\Source\Repos\Tolga99\GuichetApp\LibraryBLL\bin\Debug\netcoreapp3.1\LibraryBD.dll
+C:\Users\t_olg\Source\Repos\Tolga99\GuichetApp\LibraryBLL\bin\Debug\netcoreapp3.1\LibraryDTO.dll
+C:\Users\t_olg\Source\Repos\Tolga99\GuichetApp\LibraryBLL\bin\Debug\netcoreapp3.1\LibraryBD.pdb
+C:\Users\t_olg\Source\Repos\Tolga99\GuichetApp\LibraryBLL\bin\Debug\netcoreapp3.1\LibraryDTO.pdb
+C:\Users\t_olg\Source\Repos\Tolga99\GuichetApp\LibraryBLL\obj\Debug\netcoreapp3.1\LibraryBLL.csprojAssemblyReference.cache
+C:\Users\t_olg\Source\Repos\Tolga99\GuichetApp\LibraryBLL\obj\Debug\netcoreapp3.1\LibraryBLL.AssemblyInfoInputs.cache
+C:\Users\t_olg\Source\Repos\Tolga99\GuichetApp\LibraryBLL\obj\Debug\netcoreapp3.1\LibraryBLL.AssemblyInfo.cs
+C:\Users\t_olg\Source\Repos\Tolga99\GuichetApp\LibraryBLL\obj\Debug\netcoreapp3.1\LibraryBLL.csproj.CoreCompileInputs.cache
+C:\Users\t_olg\Source\Repos\Tolga99\GuichetApp\LibraryBLL\obj\Debug\netcoreapp3.1\LibraryBLL.csproj.CopyComplete
+C:\Users\t_olg\Source\Repos\Tolga99\GuichetApp\LibraryBLL\obj\Debug\netcoreapp3.1\LibraryBLL.dll
+C:\Users\t_olg\Source\Repos\Tolga99\GuichetApp\LibraryBLL\obj\Debug\netcoreapp3.1\LibraryBLL.pdb

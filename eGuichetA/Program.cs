@@ -24,23 +24,23 @@ namespace eGuichetA
             String mail = "mail";
             String Phone = "0497";
 
-            User user = new User(name, surname, mail, Phone);
+            User user = new User(1,name, surname, mail, Phone);
             guichetContext.Users.Add(user);
 
             int nbTick = 1000;
 
-            Session session = new Session("Bank", user,nbTick);
+            Session session = new Session(1,"Bank", user, nbTick) ;
             guichetContext.Sessions.Add(session);
 
-            Category category = new Category("Deposit", (nbTick / 3) * 0);
+            Category category = new Category(1,"Deposit", (nbTick / 3) * 0);
             session.Categories.Add(category);
             guichetContext.Categories.Add(category);
 
-            category = new Category("Withdraw", (nbTick / 3) * 1);
+            category = new Category(2,"Withdraw", (nbTick / 3) * 1);
             session.Categories.Add(category);
             guichetContext.Categories.Add(category);
 
-            category = new Category("Information", (nbTick / 3) * 2);
+            category = new Category(3,"Information", (nbTick / 3) * 2);
             session.Categories.Add(category);
             guichetContext.Categories.Add(category);
 
