@@ -45,5 +45,49 @@ namespace LibraryBLL
             }
             return list;
         }
+        public SessionDTO GetSessionById(int id)
+        {
+            var query = access.GetSessionById(id);
+            SessionDTO sessD = new SessionDTO();
+            //ICollection<SessionDTO> list = new HashSet<SessionDTO>();
+            foreach (Session sess in query)
+            {
+                ICollection<CategoryDTO> listCat = new HashSet<CategoryDTO>();
+                ICollection<TicketDTO> listTic = new HashSet<TicketDTO>();
+
+                foreach (Category cate in sess.Categories)
+                {
+                    listCat.Add(new CategoryDTO(cate.Id, cate.Name, cate.Offset));
+                }
+                foreach (Ticket tick in sess.Tickets)
+                {
+                    listTic.Add(new TicketDTO(tick.Id, tick.Num, tick.Flag, tick.Date));
+                }
+                sessD = new SessionDTO(sess.Id, sess.Name,
+                    new LightUserDTO(sess.Admin.Id, sess.Admin.Password, sess.Admin.Surname, sess.Admin.Mail, sess.Admin.PhoneNumber),
+                    sess.Range, listCat, listTic);
+            }
+            return sessD;
+        }
+        public int GetNbCategoriesOfSessionById(int id)
+        {
+            int Number = 0;
+            var query = access.GetCategoriesOfSessionById(id);
+            foreach(var sess in query)
+            {
+                Number=sess.Categories.Count;
+            }
+            return Number;
+        }
+        public int GetNbCategoriesOfSessionByName(String name)
+        {
+            int Number = 0;
+            var query = access.GetCategoriesOfSessionByName(name);
+            foreach (var sess in query)
+            {
+                Number = sess.Categories.Count;
+            }
+            return Number;
+        }
     }
 }

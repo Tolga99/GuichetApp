@@ -47,10 +47,17 @@ namespace LibraryBD
                         select b;
             return query;
         }
-        public IQueryable<Session> GetCategoriesOfSession(int idSess)
+        public IQueryable<Session> GetCategoriesOfSessionById(int idSess)
         {
             var query = from b in GC.Sessions.Include(a => a.Categories)
                              where b.Id == idSess
+                        select b;
+            return query;
+        }
+        public IQueryable<Session> GetCategoriesOfSessionByName(String nameSess)
+        {
+            var query = from b in GC.Sessions.Include(a => a.Categories)
+                        where b.Name == nameSess
                         select b;
             return query;
         }

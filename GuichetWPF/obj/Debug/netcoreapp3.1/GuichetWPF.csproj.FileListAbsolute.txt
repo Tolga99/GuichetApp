@@ -1,0 +1,9 @@
+C:\Users\t_olg\Source\Repos\Tolga99\GuichetApp\GuichetWPF\obj\Debug\netcoreapp3.1\GuichetWPF.csprojAssemblyReference.cache
+C:\Users\t_olg\Source\Repos\Tolga99\GuichetApp\GuichetWPF\obj\Debug\netcoreapp3.1\Views\AdminCategoryAdd.g.cs
+C:\Users\t_olg\Source\Repos\Tolga99\GuichetApp\GuichetWPF\obj\Debug\netcoreapp3.1\Views\AdminSessionCreation.g.cs
+C:\Users\t_olg\Source\Repos\Tolga99\GuichetApp\GuichetWPF\obj\Debug\netcoreapp3.1\Views\AdminWindow.g.cs
+C:\Users\t_olg\Source\Repos\Tolga99\GuichetApp\GuichetWPF\obj\Debug\netcoreapp3.1\Views\ClientWindow.g.cs
+C:\Users\t_olg\Source\Repos\Tolga99\GuichetApp\GuichetWPF\obj\Debug\netcoreapp3.1\Views\MainWindow.g.cs
+C:\Users\t_olg\Source\Repos\Tolga99\GuichetApp\GuichetWPF\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\t_olg\Source\Repos\Tolga99\GuichetApp\GuichetWPF\obj\Debug\netcoreapp3.1\GuichetWPF_MarkupCompile.cache
+C:\Users\t_olg\Source\Repos\Tolga99\GuichetApp\GuichetWPF\obj\Debug\netcoreapp3.1\GuichetWPF_MarkupCompile.lref

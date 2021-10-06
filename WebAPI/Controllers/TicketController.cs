@@ -28,12 +28,11 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("newticket/{idSess}/{idCat}")]
-        public void CreateTicket(int idSess,int idCat)
+        public IActionResult CreateTicket(int idSess,int idCat)
         {
             TicketMethods ticketMethods = new TicketMethods();
-            ticketMethods.CreateTicket(idSess,idCat-1);
-            //List<TicketDTO> list = ticketMethods.GetAllTicketOfSession(1);
-            //return Ok(list);
+            TicketDTO ticket= ticketMethods.CreateTicket(idSess,idCat-1);
+            return Ok(ticket);
         }
     }
 }

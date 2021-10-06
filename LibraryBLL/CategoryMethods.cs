@@ -12,7 +12,7 @@ namespace LibraryBLL
         {
             access = new AccessMethods();
         }
-        public void CreateCategories(String sessName, String[] names)
+        public void CreateCategories(String sessName, String[] names) //OneShot
         {
             
             var query = access.GetSessionByName(sessName);
