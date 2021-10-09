@@ -53,7 +53,7 @@ namespace GuichetWPF.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/GuichetWPF;V1.0.0.0;component/views/clientwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/GuichetWPF;component/views/clientwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\ClientWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
