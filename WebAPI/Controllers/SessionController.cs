@@ -27,6 +27,13 @@ namespace WebAPI.Controllers
             int num = sessionMethods.GetNbCategoriesOfSessionByName(nameSess);
             return Ok(num);
         }
+        [HttpGet("sessions")]
+        public IActionResult GetAllSessions() // Rajouter l'user apres
+        {
+            SessionMethods sessionMethods = new SessionMethods();
+            ICollection<SessionDTO> sess = sessionMethods.GetAllFullSessions();
+            return Ok(sess);
+        }
 
         [HttpPost("newsession/{nameSess}")]
         public IActionResult CreateSession(String nameSess)

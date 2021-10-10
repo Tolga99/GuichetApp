@@ -11,6 +11,7 @@ namespace GuichetWPF.Models
         //private LightUserDTO admin;
         private String admin;
         private int range;
+        private ICollection<CategoryModel> categories;
 
         public SessionModel()
         {
@@ -21,6 +22,15 @@ namespace GuichetWPF.Models
             Admin = user;
             Name = nom;
             Range = max;
+
+        }
+        public SessionModel(int idS, String nom, String user, int max,ICollection<CategoryModel> cat)
+        {
+            Id = idS;
+            Admin = user;
+            Name = nom;
+            Range = max;
+            categories = cat;
 
         }
         /*public SessionModel(int idS, String nom, LightUserDTO user, int max)
@@ -35,6 +45,7 @@ namespace GuichetWPF.Models
         public string Name { get => name; set => name = value; }
         public int Range { get => range; set => range = value; }
         public string Admin { get => admin; set => admin = value; }
+        public ICollection<CategoryModel> Categories { get => categories; set => categories = value; }
 
         //public LightUserDTO Admin { get => admin; set => admin = value; }
         public override string ToString()

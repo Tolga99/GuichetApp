@@ -23,6 +23,7 @@ namespace GuichetWPF.ViewModels
 
 
         public event PropertyChangedEventHandler PropertyChanged;
+        public SessionModel sessionModel;
         public String rech { get; set; }
         public int idSess { get; set; }
         public int idCat { get; set; }
@@ -71,6 +72,19 @@ namespace GuichetWPF.ViewModels
             cmdSearch = new DelegateCommand((a) => Search());
             cmdVisu = new DelegateCommand((a) => Visualise());*/
             Categories = new ObservableCollection<CategoryModel>();
+        }
+        public ClientTicketViewModel(SessionModel sess)
+        {
+            /*  cmdClick = new DelegateCommand((a) => NextPage());
+              cmdBack = new DelegateCommand((a) => BackPage());
+              cmdSearch = new DelegateCommand((a) => Search());
+              cmdVisu = new DelegateCommand((a) => Visualise());*/
+            sessionModel = sess;
+            foreach(var c in sess.Categories)
+            {
+                Categories.Add(c);
+            }
+            
         }
     }
 }

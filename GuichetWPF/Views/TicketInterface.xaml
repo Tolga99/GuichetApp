@@ -3,9 +3,12 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:GuichetWPF.Views"
+        xmlns:local="clr-namespace:GuichetWPF.ViewModels"
         mc:Ignorable="d"
         Title="TicketInterface" Height="450" Width="800">
+    <Window.DataContext>
+        <local:ClientTicketViewModel/>
+    </Window.DataContext>
     <Grid>
         <DataGrid x:Name="GridFilm" Grid.Row="0" ItemsSource="{Binding Categories}" AutoGenerateColumns="False" Margin="10,45,630,131" SelectedItem="{Binding Actuel}" IsReadOnly="True">
             <DataGrid.Columns>

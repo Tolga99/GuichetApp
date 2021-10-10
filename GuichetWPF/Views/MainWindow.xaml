@@ -3,12 +3,15 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:GuichetWPF"
+        xmlns:local="clr-namespace:GuichetWPF.ViewModels"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.DataContext>
+        <local:MainViewModel/>
+    </Window.DataContext>
     <Grid>
-        <Button Content="Admin" HorizontalAlignment="Left" Margin="212,197,0,0" VerticalAlignment="Top" Height="94" Width="116"/>
-        <Button Content="Client" HorizontalAlignment="Left" Margin="466,197,0,0" VerticalAlignment="Top" Height="94" Width="104"/>
+        <Button Command="{Binding cmdUser}"  Content="Admin" HorizontalAlignment="Left" Margin="212,197,0,0" VerticalAlignment="Top" Height="94" Width="116"/>
+        <Button Command="{Binding cmdClient}" Content="Client" HorizontalAlignment="Left" Margin="466,197,0,0" VerticalAlignment="Top" Height="94" Width="104"/>
 
     </Grid>
 </Window>
